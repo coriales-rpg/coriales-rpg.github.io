@@ -2798,7 +2798,7 @@ He rubs his beard and glances around.
 
 Follow me and put your hoods up so you not be so readily recognized.&quot;
 
-You notice a couple of apprentices looking after you as you follow Conadren out of the courtyard to the [[quarters of Sage Jakul -&gt;Sage Jakul]]</tw-passagedata><tw-passagedata pid="268" name="Sage Jakul" tags="" position="3720,935" size="100,100">events: [...events,&quot;And speak with Sage Jakul.  &quot;]
+You notice a couple of apprentices looking after you as you follow Conadren out of the courtyard to the [[quarters of Sage Jakul -&gt;Sage Jakul]]</tw-passagedata><tw-passagedata pid="268" name="Sage Jakul" tags="" position="3720,935" size="100,100">events: [...events,&quot; and speak with Sage Jakul. &quot;]
 --
 It&#39;s not exactly a warm welcome you receive from the Sage.
 
@@ -2865,6 +2865,8 @@ As you hesitate, aware of the suspicious glances of the Lunar peltests who watch
 Do you:
 &gt; [[Leave quickly before you draw attention to yourself and lie low in Gimpy&#39;s-&gt;Evening in Pavis]]
 &gt; [[Throw him some coins and ask about the temple.-&gt;Ask air beggar]]</tw-passagedata><tw-passagedata pid="275" name="Ask air beggar" tags="" position="3237,2862" size="100,100">revealed_identity: revealed_identity+1
+events: [...events,&quot; You visit the air temple and receive mindspeech.&quot;]
+
 --
 You throw the beggar some coins. Chysman glares at the him while Karyth watches the nearby Peltasts. 
 
@@ -2887,6 +2889,8 @@ What are you looking for?
 &gt; [[Look for a desert guide -&gt;Bel Seri]]
 [continue]
 &gt; [[Enough looking around - time to return to gimpy&#39;s-&gt;Evening in Pavis]]</tw-passagedata><tw-passagedata pid="277" name="Find slaver" tags="" position="3229,526" size="100,100">revealed_identity: revealed_identity+1
+events: [...events,&quot; You talk to a slave trader about Pimper&#39;s block. &quot;]
+
 --
 You find an Issaries trader recently arrived from Pimper&#39;s Block. 
 
@@ -2982,6 +2986,8 @@ You want to ask more questiosn but decide this is not the time and there are too
 [[You bid him farewell saying you will send word shortly-&gt;The Market]]</tw-passagedata><tw-passagedata pid="288" name="Stormbull temple" tags="" position="3008,1735" size="100,100">sbull: sbull+5
 uroxTemple: true
 sameday: false
+events: [...events,&quot; You visit the Urox temple&quot;]
+
 --
 You arrive at the familiar building of the Storm Bull temple and remember the many occasions you visited here in the past.
 
@@ -3018,7 +3024,7 @@ Then he pauses, peering at you with his one good eye.
 
 Then he pauses, peering at you with his one good eye.
 
-{embed passage: &quot;Urdrim recognizes&quot;}</tw-passagedata><tw-passagedata pid="293" name="Urdrim recognizes" tags="" position="3355,1999" size="100,100">events: [...events,&quot;You meet the Uroxi, Urdrim the Stout.  &quot;]
+{embed passage: &quot;Urdrim recognizes&quot;}</tw-passagedata><tw-passagedata pid="293" name="Urdrim recognizes" tags="" position="3355,1999" size="100,100">events: [...events,&quot; and speak with a crippled Urdrim the Stout  &quot;]
 
 --
 &quot;Cuthbert thrice damned Coriales - least ugly of a cursed set of siblings,&quot; he exclaims, &quot;and the two marsh stinkers who follow him everywhere.&quot;
@@ -3234,7 +3240,9 @@ Only a few weeks back a group  headed out towards the hills north of Garhound fo
 Now, I urge you to leave before you are recognised for you are outlaw and none can offer you refuge.
 
 &gt; [[Ask about the weaselly looking warrior-&gt;Humakt weasel]]
-&gt; [[Bid him farewell and quickly depart-&gt;Evening in Pavis]]</tw-passagedata><tw-passagedata pid="310" name="Confront weasel" tags="" position="3878,1434" size="100,100">The man watches you approach pulling on a pipe. 
+&gt; [[Bid him farewell and quickly depart-&gt;Evening in Pavis]]</tw-passagedata><tw-passagedata pid="310" name="Confront weasel" tags="" position="3878,1434" size="100,100">revealed_identity: revealed_identity+3
+--
+The man watches you approach pulling on a pipe. 
 
 &#39;Sorry stranger - you reminded me of a dead man walking I once knew.&#39;
 
@@ -3470,7 +3478,7 @@ He greets you coldly and asks why you are here?
 [continue]
 &gt; [[Take your leave and return to Gimpy&#39;s-&gt;Evening in Pavis]]</tw-passagedata><tw-passagedata pid="334" name="riverboat" tags="" position="3745,2292" size="100,100">ingillis: true
 riverboat: true
-events: [...events,&quot;You learn the waters of the Zola Fel are very low.  &quot;]
+events: [...events,&quot;You learn the waters of the Zola Fel are too low for navigation.  &quot;]
 
 --
 He chatters a long while to others around him and they seem to get excited about something. 
@@ -3607,6 +3615,8 @@ No, I&#39;m afraid I don&#39;t know - out in the Wastes somewhere as I understan
 You take your leave and head [[back to Gimpy&#39;s-&gt;Evening in Pavis]]</tw-passagedata><tw-passagedata pid="350" name="Healing Hall" tags="" position="2976,1088" size="100,100">_needhealing: false
 _needhealing (cuthbertHealth!=&#39;good&#39; || karythHealth!=&#39;good&#39; || chysmanHealth!=&#39;good&#39;):  true
 sameday: true
+events: [...events,&quot; You visit the Healing temple and meet Andrea &quot;]
+
 --
 [if passage.visits===1]
 You enter the halls of healing and are shocked at how crowded its courtyards are. Most of those seeking help are poor and often starving. Others show signs of having been touched by the spirits of Mallia. Even here in Pavis, the long winter is bringing with it much suffering and affliction.
@@ -3691,7 +3701,7 @@ She is not to be disturbed by such trifling interuptions - I suggest you leave b
 It stares closely into your eyes, and you sense it beginning to engage with your own spirit.
 
 Do you [[leave-&gt;leaveXalendra]] or say you are the [[cousin of Carrick Coriales-&gt;speakXalendra]]</tw-passagedata><tw-passagedata pid="357" name="Xalenda words" tags="" position="3210,1236" size="100,100">know_belseri: true
-events: [...events,&quot;A discorporate Xalendra offers you advice.  &quot;]
+events: [...events,&quot;and a discorporate Xalendra offers you advice.  &quot;]
 --
 &quot;Cuthbert Coriales is it? I didn&#39;t expect to see you for many a season. Sartar not to your liking? Or are you troubled by dreams? Dreams of the earth is it?&quot; 
 
@@ -4047,7 +4057,7 @@ She then laughs.
 
 Then that hardened look returns.
 
-&quot;You should go and find that wife of yours [[before you forget you have one or others find her before you.&quot;-&gt;Mylandera questions]]</tw-passagedata><tw-passagedata pid="389" name="calculate_celeste" tags="" position="887,2000" size="100,100">_celeste: revealed_identity&gt;5 &amp;&amp; (ingilli || airTemple ||humaktTemple) &amp;&amp; met_celeste===false
+&quot;You should go and find that wife of yours [[before you forget you have one or others find her before you.&quot;-&gt;Mylandera questions]]</tw-passagedata><tw-passagedata pid="389" name="calculate_celeste" tags="" position="887,2000" size="100,100">_celeste: revealed_identity&gt;5 &amp;&amp; (ingilli || airTemple ||humaktTemple || earthTemple) &amp;&amp; met_celeste===false
 
 --</tw-passagedata><tw-passagedata pid="390" name="See Wench" tags="" position="737,1990" size="100,100">met_celeste: true
 --
@@ -4110,7 +4120,9 @@ It is [[Celeste-&gt;pavis.celesteadvice]]</tw-passagedata><tw-passagedata pid="3
 Her voice and demeanor suddenly changes.
 &quot;When I give you instructions, it would be in your interest to follow them.&quot;
 
-You recognise her as [[Celeste-&gt;pavis.celesteadvice]]</tw-passagedata><tw-passagedata pid="396" name="pavis.celesteadvice" tags="" position="143,2397" size="100,100">She gives you a withering look.
+You recognise her as [[Celeste-&gt;pavis.celesteadvice]]</tw-passagedata><tw-passagedata pid="396" name="pavis.celesteadvice" tags="" position="143,2397" size="100,100">events: [...events,&quot;Celeste meets you and shares news and advice.  &quot;]
+--
+She gives you a withering look.
 {embed image: &#39;images/celeste_cut.png&#39;, alt: &#39;Celeste image&#39;}
 
 &quot;If you think dressing up as a mercenary thug and claiming to be a sell sword fleeing chilly Sartar is enough to pass unnoticed, I beg to differ.
@@ -4194,7 +4206,6 @@ Poor bastards - it’s not just that the Open wound captures or even kills their
 The abandoned Earth having the last say over all those husbands who left her. 
  
 [[She looks momentarily bitter.-&gt;Celeste questions]]</tw-passagedata><tw-passagedata pid="403" name="Celeste dreams" tags="" position="1006,3077" size="100,100">know_belseri: true
-
 --
 She listens carfully.
 
@@ -4263,8 +4274,7 @@ You ponder her [[news-&gt;Celeste questions]]</tw-passagedata><tw-passagedata pi
 
 &quot;I see your visit to Sartar has taught you nothing. Nor the loss of your brother and clan either it seems.&quot;
 
-&quot;The number of friends you have in this city could be counted on one maimed hand. So I suggest you [[shut up and listen to one of them. -&gt;pavis.celestehelp]]</tw-passagedata><tw-passagedata pid="412" name="calculate_hunters" tags="" position="1071,1173" size="100,100">_hunters: (revealed_identity &gt; 9 || trail.includes(&#39;Confront weasel&#39;) ===true) &amp;&amp; met_sellswords===false
-
+&quot;The number of friends you have in this city could be counted on one maimed hand. So I suggest you [[shut up and listen to one of them. -&gt;pavis.celestehelp]]</tw-passagedata><tw-passagedata pid="412" name="calculate_hunters" tags="" position="1071,1173" size="100,100">_hunters: revealed_identity &gt; 9 &amp;&amp; met_celeste===true  &amp;&amp; met_sellswords===false
 --</tw-passagedata><tw-passagedata pid="413" name="Sell Swords" tags="" position="942,1176" size="100,100">met_sellswords: true
 --
 You&#39;re sure that group at a nearby table have been watching you for a while now.  One or two of them keep getting up and either wandering over to the bar or talking to other clients in the tavern. If you could only focus, you would be more certain.
@@ -4361,7 +4371,9 @@ Do you:
 
 He gives a thin smile and returns to the table with his companions. They appear to lose interest in your table.
 
-However, the beer is no longer to your taste and you soon get up and [[leave the tavern with your followers.-&gt;Hand alley]]</tw-passagedata><tw-passagedata pid="422" name="Hand alley" tags="" position="284,1136" size="100,100">As you leave, you notice the table of the weaselly man&#39;s companions begin to rise.
+However, the beer is no longer to your taste and you soon get up and [[leave the tavern with your followers.-&gt;Hand alley]]</tw-passagedata><tw-passagedata pid="422" name="Hand alley" tags="" position="284,1136" size="100,100">events: [...events,&quot; You are menaced by bounty hunters,&quot;]
+--
+As you leave, you notice the table of the weaselly man&#39;s companions begin to rise.
 
 Outside, your eyes adjust to the darkness and  you see a group of five men coming down the alley all armed. Glancing back you see the man&#39;s companions approaching the door.
 
@@ -4391,7 +4403,9 @@ Do you:
 
 &gt; [[Take Chysman&#39;s advice and run.-&gt;Escape sellswords]]
 
-&gt; [[Trust in Orlanth &amp; Urox and lay waste to them with your axe.-&gt;Fight on]]</tw-passagedata><tw-passagedata pid="425" name="Escape sellswords" tags="" position="304,1498" size="100,100">&quot;You have to catch us first, friend.&quot; you shout back, wishing you could put an end to him this night. But Garth was always going on about choosing your moment and you can&#39;t help thinking this isn&#39;t it.
+&gt; [[Trust in Orlanth &amp; Urox and lay waste to them with your axe.-&gt;Fight on]]</tw-passagedata><tw-passagedata pid="425" name="Escape sellswords" tags="" position="304,1498" size="100,100">events: [...events,&quot; but you manage to escape.&quot;]
+--
+&quot;You have to catch us first, friend.&quot; you shout back, wishing you could put an end to him this night. But Garth was always going on about choosing your moment and you can&#39;t help thinking this isn&#39;t it.
 
 You following your running companions down a narrow alley that opens to your right then take a number of other sharps turns to lose the immediate pursuit. 
 
@@ -4403,6 +4417,7 @@ You take a roundabout route back to Gimpy&#39;s attentive to any one following y
 
 It takes you most of the night before [[finally you sleep-&gt;Sleep]]</tw-passagedata><tw-passagedata pid="426" name="Fight on" tags="" position="47,1648" size="100,100">karyth_mad: true
 chysman_nohand: true
+events: [...events,&quot; and despite being outnumbered you choose to fight.&quot;]
 
 --
 You don&#39;t remember much of what happened. You know you crushed the head of one of them and another will still be scrabbling around looking for his arm.
@@ -4425,7 +4440,9 @@ Celeste stares down at you.
 
 You notice her clothes are covered in blood. Behind her are two strangers who appear in similarly bad humour. 
 
-Now get into the [[cellar before I throw you down there!-&gt;Gimpy cellars]]</tw-passagedata><tw-passagedata pid="428" name="Gimpy raid" tags="" position="1828,3438" size="100,100">You&#39;re awoken by shouts and screams echoing through the inn. There&#39;s the sound of a door being smahed in nearby and you hear voices in New Pelorian. 
+Now get into the [[cellar before I throw you down there!-&gt;Gimpy cellars]]</tw-passagedata><tw-passagedata pid="428" name="Gimpy raid" tags="" position="1828,3438" size="100,100">events: [...events,&quot;Lunars raid Gympy&#39;s at night &quot;]
+--
+You&#39;re awoken by shouts and screams echoing through the inn. There&#39;s the sound of a door being smahed in nearby and you hear voices in New Pelorian. 
 
 Your followers grab for their weapons.
 
@@ -4488,7 +4505,9 @@ You charge into the lunars, followed by your followers.
 
 All is mayhem, somewhere you here Chysman cry out but he&#39;s still standing. You&#39;re not sure how many you cut down as you fight your way through. Moon magics assail you but you manage to fight them off.
 
-Then you are running through the empty streets, instinct taking you towards Riverside where you know the rundown empty dwellings can provide a [[hiding place for the night.-&gt;Riverside]]</tw-passagedata><tw-passagedata pid="436" name="Gimpy cellars" tags="" position="1630,3784" size="100,100">[if karyth_mad===true]
+Then you are running through the empty streets, instinct taking you towards Riverside where you know the rundown empty dwellings can provide a [[hiding place for the night.-&gt;Riverside]]</tw-passagedata><tw-passagedata pid="436" name="Gimpy cellars" tags="" position="1630,3784" size="100,100">events: [...events,&quot; Karyth is mindblaster and Chysman loses a hand but you are rescued by Celeste.&quot;]
+--
+[if karyth_mad===true]
 Chysman follows you, leading a gibbering Karyth, clearly lost to some lunar magic.
 [if dog===true]
 Dog III yaps quietely. At least he has survived unscathed - wrapped up in your cloak!
@@ -4547,7 +4566,9 @@ The sablke riders laugh and prod you with spears but then wave you through.
 &quot;Ride fast on your little nags,&quot; advises one of them in broken tradetalk.
 &quot;For though we owe our kinsman favour, there are those who do not and are keen to hunt you down.&quot; 
 
-You pass silently through the gates to the [[plains beyond-&gt;Towards the OWC]]</tw-passagedata><tw-passagedata pid="440" name="Riverside" tags="" position="2549,3838" size="100,100">At last you find a refuge - an empty, dank courtyard close to the house your family once occupied.
+You pass silently through the gates to the [[plains beyond-&gt;Towards the OWC]]</tw-passagedata><tw-passagedata pid="440" name="Riverside" tags="" position="2549,3838" size="100,100">events: [...events,&quot;you escape to Riverside.&quot;]
+--
+At last you find a refuge - an empty, dank courtyard close to the house your family once occupied.
 
 [if chysman_nohand===true]
 There you rest and see that Chysman&#39;s left hand has been severed..
@@ -5284,8 +5305,8 @@ For all her words, she shows surprising care towards the male warriors who have 
 
 &quot;Think of these coming times like the tests you faced at the Garhound Festival,&quot; she advises. &quot; Only deadlier and longer lasting.&quot;
 
-{back link}</tw-passagedata><tw-passagedata pid="506" name="Husband protectors" tags="" position="1708,5498" size="100,100">[is stantor_dead===false]
-Stantor leads the other warriors and if grateful that you came with a sacrifice for otherwise he would have had to fight you to the death.
+{back link}</tw-passagedata><tw-passagedata pid="506" name="Husband protectors" tags="" position="1708,5498" size="100,100">[if stantor_dead===false]
+Stantor is grateful that you came with a sacrifice for otherwise he would have had to fight you to the death. He commands the other warriors.
 [continue]
 
 The warriors are from different cultures and cults.
