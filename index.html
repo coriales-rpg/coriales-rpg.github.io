@@ -5322,7 +5322,8 @@ They talk of Sea season and Magasta - the sea god who was once a bride of the Ea
 
 And they wonder of the light worshippers in Sun County and whether they might raid this Fire Season, despite their bonds to the Earth.
 
-{back link}</tw-passagedata><tw-passagedata pid="509" name="Protectors sea season" tags="" position="1510,5672" size="100,100">doy:280
+{back link}</tw-passagedata><tw-passagedata pid="509" name="Protectors sea season" tags="" position="1510,5672" size="100,100">currentYear: 1622
+doy: 24
 --
 ## Sea Season 1622
 
@@ -5449,9 +5450,7 @@ You admit your quest for water has failed and recount your discovery and decisio
 
 Not all the warriors seem to share her opinion.
 
-[[You take your leave and go to sleep-&gt;Jar sleep]]</tw-passagedata><tw-passagedata pid="520" name="Jar sleep" tags="" position="278,6441" size="100,100">You sleep little. 
-
-And the following, and everyday thereafter, the search for water continues but to [[no avail.-&gt;Fire season 1622]]</tw-passagedata><tw-passagedata pid="521" name="Jar gift" tags="" position="463,6265" size="100,100">Occala gives you a long, steady look.
+[[You take your leave and go to sleep-&gt;Jar sleep]]</tw-passagedata><tw-passagedata pid="520" name="Jar gift" tags="" position="463,6265" size="100,100">Occala gives you a long, steady look.
 
 &quot;Then open it and we see if you speak truth.&quot;
 
@@ -5459,15 +5458,15 @@ Do you:
 
 [[Refuse-&gt;Jar curse]]
 
-[[Open it-&gt;Open gift]]</tw-passagedata><tw-passagedata pid="522" name="Jar curse" tags="" position="540,6513" size="100,100">She gives you a long disparaging look.
+[[Open it-&gt;Open gift]]</tw-passagedata><tw-passagedata pid="521" name="Jar curse" tags="" position="540,6513" size="100,100">She gives you a long disparaging look.
 
 &quot;Then why did you bring it here, fool?&quot;
 
-She orders it placed in the [[cavern of the sleeper to be constantly watched over.-&gt;Jar sleep]]</tw-passagedata><tw-passagedata pid="523" name="Jar uncertain" tags="" position="661,6313" size="100,100">She gives you a long disparaging look.
+She orders it placed in the [[cavern of the sleeper to be constantly watched over.-&gt;Jar sleep]]</tw-passagedata><tw-passagedata pid="522" name="Jar uncertain" tags="" position="661,6313" size="100,100">She gives you a long disparaging look.
 
 &quot;You do not know your own myths Orlanthi? Or do your memories sleep with your god?&quot;
 
-She orders it placed in the [[cavern of the sleeper to be constantly watched over.-&gt;Jar sleep]]</tw-passagedata><tw-passagedata pid="524" name="Open gift" tags="" position="690,6453" size="100,100">jar: &quot;open&quot;
+She orders it placed in the [[cavern of the sleeper to be constantly watched over.-&gt;Jar sleep]]</tw-passagedata><tw-passagedata pid="523" name="Open gift" tags="" position="690,6453" size="100,100">jar: &quot;open&quot;
 release_daga: true
 events: [...events,&quot;You release Daga from the bronze jar&quot;]
 
@@ -5486,7 +5485,7 @@ She sighs.
 
 Go sleep, you have played your role for better or worse.&quot;
 
-You reseal the jar and [[try to sleep-&gt;Jar sleep]]</tw-passagedata><tw-passagedata pid="525" name="reseal the jar" tags="" position="240,5576" size="100,100">Quickly you slam the bung back into the jar - the seal is broken but the cork still fits.
+You reseal the jar and [[try to sleep-&gt;Jar sleep]]</tw-passagedata><tw-passagedata pid="524" name="reseal the jar" tags="" position="240,5576" size="100,100">Quickly you slam the bung back into the jar - the seal is broken but the cork still fits.
 
 Was it you imagination or did you see something moving within?
 
@@ -5494,7 +5493,7 @@ Do you:
 
 [[Hurry back to the surface?-&gt;Return surface]] 
 
-[[Peer into the jar?-&gt;Look into jar]]</tw-passagedata><tw-passagedata pid="526" name="Look into jar" tags="" position="506,5626" size="100,100">release_mallia: true
+[[Peer into the jar?-&gt;Look into jar]]</tw-passagedata><tw-passagedata pid="525" name="Look into jar" tags="" position="506,5626" size="100,100">release_mallia: true
 events: [...events,&quot;You are curious and release a Mallia spirit from the bronze jar &quot;]
 --
 You carefully peer in.
@@ -5511,18 +5510,11 @@ Karyth stares at you.
 
 &quot;What have you done?&quot;
 
-You silently [[retrace your steps back to the surface-&gt;Return surface]]</tw-passagedata><tw-passagedata pid="527" name="Fire season 1622" tags="" position="97,6528" size="100,100">doy: 310
+You silently [[retrace your steps back to the surface-&gt;Return surface]]</tw-passagedata><tw-passagedata pid="526" name="Jar sleep" tags="" position="278,6441" size="100,100">You sleep little. 
+
+Everyday thereafter, the search for water continues but to [[no avail.-&gt;Late sea season]]</tw-passagedata><tw-passagedata pid="527" name="Late sea season" tags="" position="850,6600" size="100,100">doy: 44
 --
-## Fire Season 1622
-
-Fires season arrives and the water keeps dwindling.
-
-[if stantor_dead===false]
-Stantor does his best to keep morale up, but it is not easy.
-[continue]
-Arguments among the warriors are frequent and the lethargy of thirst affects everyone. Barbeester Gor warriors permanently watch over the dwindling pools of water within the caverns. You hear some warriors muttering it is better to abandon the caves - perhaps seal the sleepers within the earth and let Ernalda watch over them. But the Barbeestor will not listen, claiming your duty is here and no where else.
-
-Often you accompany the searches for water but always to no avail.  
+Everyday of the season thereafter, the search for water continues but to no avail.  
 
 [if release_mallia === true]
 You see the first signs of illness and disease among the warriors. Mallia spirits haunt the caves.
@@ -5534,7 +5526,7 @@ You see the first signs of illness and disease among the warriors. Mallia spirit
 One night you are woken by a [[soul-rattling cry coming from the bowels of the earth.-&gt;Daga found]] 
 
 [if jar===&quot;open&quot;]
-You do your best to remain motivated - [[surely this windstop cannot endure much longer?-&gt;Fire season raiders]]</tw-passagedata><tw-passagedata pid="528" name="Daga unleashed" tags="" position="68,6762" size="100,100">You hear a soul-rattling cry and glimpse a skeletal spirit pass out of the cavern complex, leaving a cloud of dust and dry earth in the air.
+By the end of the season, the searches stop. Occala decides that there is [[no water to be found.-&gt;Fire season 1622]]</tw-passagedata><tw-passagedata pid="528" name="Daga unleashed" tags="" position="68,6762" size="100,100">You hear a soul-rattling cry and glimpse a skeletal spirit pass out of the cavern complex, leaving a cloud of dust and dry earth in the air.
 
 You follow several others towards the sound of fighting.
 
@@ -5570,15 +5562,26 @@ Despite Occala&#39;s anger, she know there are so few that every warrior is valu
 
 &quot;Let us hope you earn your mercy - for if we must eat flesh and drink blood this winter, it will be yours!&quot;
 
-The Grazelander goes pale, but swears he [[will not fail again.-&gt;Fire season raiders]]</tw-passagedata><tw-passagedata pid="531" name="Fire season raiders" tags="" position="399,6758" size="100,100">doy: 320
+The Grazelander goes pale, but swears he [[will not fail again.-&gt;Fire season raiders]]</tw-passagedata><tw-passagedata pid="531" name="Fire season 1622" tags="" position="97,6528" size="100,100">doy: 55
+--
+## Fire Season 1622
+
+Fires season arrives and the water keeps dwindling.
+
+[if stantor_dead===false]
+Stantor does his best to keep morale up, but it is not easy.
+[continue]
+Arguments among the warriors are frequent and the lethargy of thirst affects everyone. Barbeester Gor warriors permanently watch over the dwindling pools of water within the caverns. You hear some warriors muttering it is better to abandon the caves - perhaps seal the sleepers within the earth and let Ernalda watch over them. But the Barbeestor will not listen, claiming your duty is here and no where else.
+
+You do your best to remain motivated - [[for surely the earth msut wake soon?-&gt;Fire season raiders]]</tw-passagedata><tw-passagedata pid="532" name="Fire season raiders" tags="" position="399,6758" size="100,100">doy: 73
 --
 One morning, the horns blow from the watchers over the canyon. News arrives that warriors approach. 
 
-As you rush to help protect the cavern, you suspect many = would prefer a quick death in battle to what awaits when [[the water finally runs out.-&gt;Failed ambush]]</tw-passagedata><tw-passagedata pid="532" name="Failed ambush" tags="" position="569,6746" size="100,100">Ambushes are prepared as the warriors enter the lower cavern beyond the dry cliff pool. 
+As you rush to help protect the cavern, you suspect many = would prefer a quick death in battle to what awaits when [[the water finally runs out.-&gt;Failed ambush]]</tw-passagedata><tw-passagedata pid="533" name="Failed ambush" tags="" position="569,6746" size="100,100">Ambushes are prepared as the warriors enter the lower cavern beyond the dry cliff pool. 
 
 But word comes back that these invaders have evaded them or even ambushed the ambushers. Some returning warriors claim they have light magics that cannot be dispelled, while others claim they are able to see in the dark better than a troll.
 
-You are summoned to the temple cavern and there [[await the invading warriors-&gt;Yelm calls]]</tw-passagedata><tw-passagedata pid="533" name="Yelm calls" tags="" position="737,6732" size="100,100">They arrive.
+You are summoned to the temple cavern and there [[await the invading warriors-&gt;Yelm calls]]</tw-passagedata><tw-passagedata pid="534" name="Yelm calls" tags="" position="737,6732" size="100,100">They arrive.
 
 Sun Dome templars. Well armoured and well supplied from the look of them. The light of their shields and lanterns dispels the shadows of the cave - and reveal the squalor of your existence.
 
@@ -5590,7 +5593,7 @@ The other a tall silent templar, face hidden by a full helm. He is bathed in a g
 
 The third looks out of place. Although dressed in gold engraved helmet and breastplate, he looks out of breath and uncertain compared to his companions. But he too appears is bathed in light.
 
-The woman takes off her helm and offers [[greetings to the Abandoned Earth.-&gt;Allalia speaks]]</tw-passagedata><tw-passagedata pid="534" name="Allalia speaks" tags="" position="902,6738" size="100,100">It is Allalia Eskalos, once spear woman for Vega Goldbreath, the Guardian of Sun County.
+The woman takes off her helm and offers [[greetings to the Abandoned Earth.-&gt;Allalia speaks]]</tw-passagedata><tw-passagedata pid="535" name="Allalia speaks" tags="" position="902,6738" size="100,100">It is Allalia Eskalos, once spear woman for Vega Goldbreath, the Guardian of Sun County.
 
 &quot;We have come in peace but seek justice&quot; she announces. 
 
@@ -5602,7 +5605,7 @@ You blink in suprise and almost awe. Despite his posture, his face appears regal
 
 You feel as if should bow your knee to him.
 
-&quot;[[I, Lord Kyros of Pavis, servant of the Celestial Emperor Yelm reclaim my wife from the dead god Orlanth who stole her!&quot;.-&gt;Yelm audience]]</tw-passagedata><tw-passagedata pid="535" name="Yelm audience" tags="" position="1052,6745" size="100,100">events: [...events,&quot;In Fire Season, Lord Kyros accompanied by templars demands his wife is returned &quot;]
+&quot;[[I, Lord Kyros of Pavis, servant of the Celestial Emperor Yelm reclaim my wife from the dead god Orlanth who stole her!&quot;.-&gt;Yelm audience]]</tw-passagedata><tw-passagedata pid="536" name="Yelm audience" tags="" position="1052,6745" size="100,100">events: [...events,&quot;In Fire Season, Lord Kyros accompanied by templars demands his wife is returned &quot;]
 
 --
 Occala Wayblue looks disdainfully at the intruders.
@@ -5621,19 +5624,19 @@ Do you:
 
 [[Cut down the old fool.-&gt;Three blows]]
 
-[[Keep silent.-&gt;Keep silent]]</tw-passagedata><tw-passagedata pid="536" name="Denounce kyros" tags="" position="1146,6915" size="100,100">You renounce Kyros&#39; accusations.  
+[[Keep silent.-&gt;Keep silent]]</tw-passagedata><tw-passagedata pid="537" name="Denounce kyros" tags="" position="1146,6915" size="100,100">You renounce Kyros&#39; accusations.  
 
 Yet your words seem to fall flat for you realise he speaks the truth. His wife tried to kill him, then fled his home to live among Orlanthi outlaws.
 
 Occala shakes her head. 
 
-&quot;Only a trial by combat can prove [[who speaks the truth&quot;-&gt;Three blows]]</tw-passagedata><tw-passagedata pid="537" name="Keep silent" tags="" position="1178,6643" size="100,100">Occala shakes her head. 
+&quot;Only a trial by combat can prove [[who speaks the truth&quot;-&gt;Three blows]]</tw-passagedata><tw-passagedata pid="538" name="Keep silent" tags="" position="1178,6643" size="100,100">Occala shakes her head. 
 
-&quot;Only a trial by combat can prove [[who speaks the truth&quot;-&gt;Three blows]]</tw-passagedata><tw-passagedata pid="538" name="Three blows" tags="" position="1245,6761" size="100,100">You heft your axe and advance towards Kyros followed by your followers. The Barbeester Gor warriors step aside and watch.
+&quot;Only a trial by combat can prove [[who speaks the truth&quot;-&gt;Three blows]]</tw-passagedata><tw-passagedata pid="539" name="Three blows" tags="" position="1245,6761" size="100,100">You heft your axe and advance towards Kyros followed by your followers. The Barbeester Gor warriors step aside and watch.
 
 Kyros quickly backs away as the silent Templar steps in front of him, intoning loudly words in Fire speach. He lowers his spear as you advance towards him.
 
-Then he strikes - not as a mortal, but as a [[god might strike.-&gt;The strikes]]</tw-passagedata><tw-passagedata pid="539" name="The strikes" tags="" position="1377,6759" size="100,100">events: [...events,&quot;You are defeated by a Yelmalio heroquester&quot;]
+Then he strikes - not as a mortal, but as a [[god might strike.-&gt;The strikes]]</tw-passagedata><tw-passagedata pid="540" name="The strikes" tags="" position="1377,6759" size="100,100">events: [...events,&quot;You are defeated by a Yelmalio heroquester&quot;]
 --
 The first blow snaps Chysman&#39;s achilles heel. 
 
@@ -5643,13 +5646,13 @@ The third goes straight through your shield and pierces your throat.
 
 And you realise that he and Kyros glow not with spirit magic, nor with rune magic, but with the light of heroquesters.
 
-[[Yelmalio&#39;s three blows of anger are complete.-&gt;Kyros revenge]]</tw-passagedata><tw-passagedata pid="540" name="Kyros revenge" tags="" position="1558,6763" size="100,100">The templar twists and retracts his spear as you cough blood, while Chysman writhes on the floor and Karyth tries to heal his bloody hand.
+[[Yelmalio&#39;s three blows of anger are complete.-&gt;Kyros revenge]]</tw-passagedata><tw-passagedata pid="541" name="Kyros revenge" tags="" position="1558,6763" size="100,100">The templar twists and retracts his spear as you cough blood, while Chysman writhes on the floor and Karyth tries to heal his bloody hand.
 
 &quot;Justice is served and the truth of our cause is revealed,&quot; he announces.
 
 &quot;Not yet&quot; snarls Kyros. 
 
-[[&quot;First they must be executed for their crimes.&quot;-&gt;Kyros vengeance]]</tw-passagedata><tw-passagedata pid="541" name="Kyros vengeance" tags="" position="1706,6757" size="100,100">events: [...events,&quot; but are shown mercy. &quot;]
+[[&quot;First they must be executed for their crimes.&quot;-&gt;Kyros vengeance]]</tw-passagedata><tw-passagedata pid="542" name="Kyros vengeance" tags="" position="1706,6757" size="100,100">events: [...events,&quot; but are shown mercy. &quot;]
 --
 As you try to recite words of healing, Kyros approaches. 
 
@@ -5664,7 +5667,7 @@ he knows a heroquest path must be followed, not strayed from.
 
 The Barbeestor Gor priestess looks angry and ready to refuse his demand when a voice echos through the cave.
 
-&quot;He is right - he is my husband whom I freely chose. I will accompany him, just as [[Ernalda accompanied Yelm.&quot;-&gt;Ethwaine revenge]]</tw-passagedata><tw-passagedata pid="542" name="Ethwaine revenge" tags="" position="1831,6757" size="100,100">The warriors part alllowing Ethwaine to approach. She looks refreshed from her long sleep and has cast aside the black garb of Ty Kora Tek.
+&quot;He is right - he is my husband whom I freely chose. I will accompany him, just as [[Ernalda accompanied Yelm.&quot;-&gt;Ethwaine revenge]]</tw-passagedata><tw-passagedata pid="543" name="Ethwaine revenge" tags="" position="1831,6757" size="100,100">The warriors part alllowing Ethwaine to approach. She looks refreshed from her long sleep and has cast aside the black garb of Ty Kora Tek.
 
 She walks up to Lord Kyros and kneels at his feet.
 
@@ -5672,7 +5675,7 @@ She walks up to Lord Kyros and kneels at his feet.
 
 You see the eyes of Kyros light up in satisfaction as he mutters an ingracious acceptance - eventually deigning to raise her back to her feet.
 
-And then his eyes glaze over and [[he gasps.-&gt;Kyros death]]</tw-passagedata><tw-passagedata pid="543" name="Kyros death" tags="" position="1956,6757" size="100,100">events: [...events,&quot;Ethwaine slays Lord Kyros&quot;]
+And then his eyes glaze over and [[he gasps.-&gt;Kyros death]]</tw-passagedata><tw-passagedata pid="544" name="Kyros death" tags="" position="1956,6757" size="100,100">events: [...events,&quot;Ethwaine slays Lord Kyros&quot;]
 --
 You see a crimson stain spread over the tunic of Lord Kyros and the ivory handle of a knife in Ethwaine&#39;s hand.
 
@@ -5682,7 +5685,7 @@ You watch in silence as Ethwaine twists the knife and Kyros falls to the ground.
 
 Allalia gives her a sorrowful look. 
 
-&quot;I feared you might choose [[this path, lady.&quot;-&gt;Ethwaine farewell]]</tw-passagedata><tw-passagedata pid="544" name="Ethwaine farewell" tags="" position="2077,6609" size="100,100">Ethwaine addresses the templars.
+&quot;I feared you might choose [[this path, lady.&quot;-&gt;Ethwaine farewell]]</tw-passagedata><tw-passagedata pid="545" name="Ethwaine farewell" tags="" position="2077,6609" size="100,100">Ethwaine addresses the templars.
 
 &quot;It should have been Orlanth who wielded the blade - but he is dead. Yet the path must be followed. As Ernalda accompanied Yelm to the underworld, so too I will accompany my husband.&quot;
 
@@ -5694,7 +5697,7 @@ Do you:
 
 [[Agree-&gt;Kill ethwaine]]
 
-[[Refuse-&gt;Refuse Ethwaine]]</tw-passagedata><tw-passagedata pid="545" name="Kill ethwaine" tags="" position="2138,6789" size="100,100">events: [...events,&quot; but then you must slay Ethwaine so she accompanies her husband to the Underworld &quot;]
+[[Refuse-&gt;Refuse Ethwaine]]</tw-passagedata><tw-passagedata pid="546" name="Kill ethwaine" tags="" position="2138,6789" size="100,100">events: [...events,&quot; but then you must slay Ethwaine so she accompanies her husband to the Underworld &quot;]
 --
 
 You stumble to your feet, as she kneels before you baring her neck.
@@ -5703,7 +5706,7 @@ You make sure the blow is swift and keen.
 
 The reamining heroquester approaches you.
 
-&quot;She chose her path, I am glad it was you who [[showed her the way.&quot;-&gt;Haloric protector]]</tw-passagedata><tw-passagedata pid="546" name="Refuse Ethwaine" tags="" position="2343,6621" size="100,100">events: [...events,&quot; and the heroquester then slays Ethwaine so she accompanies her husband to the Underworld &quot;]
+&quot;She chose her path, I am glad it was you who [[showed her the way.&quot;-&gt;Haloric protector]]</tw-passagedata><tw-passagedata pid="547" name="Refuse Ethwaine" tags="" position="2343,6621" size="100,100">events: [...events,&quot; and the heroquester then slays Ethwaine so she accompanies her husband to the Underworld &quot;]
 --
 You shake your head, wondering how could ever face your wife knowing her mother was slayed by your own hand. 
 
@@ -5715,7 +5718,7 @@ Karyth places a hand on your shoulder.
 
 &quot;She chose the path of her goddess.&quot;
 
-You both watch as [[her blood flows away.-&gt;Haloric protector]]</tw-passagedata><tw-passagedata pid="547" name="Haloric protector" tags="" position="2328,6769" size="100,100">&quot;We bring food and drink and would happily share it in return for you hospitality&quot; announces Allalia. &quot;But first we must attend to the dead.&quot;
+You both watch as [[her blood flows away.-&gt;Haloric protector]]</tw-passagedata><tw-passagedata pid="548" name="Haloric protector" tags="" position="2328,6769" size="100,100">&quot;We bring food and drink and would happily share it in return for you hospitality&quot; announces Allalia. &quot;But first we must attend to the dead.&quot;
 
 A strange acceptance of what has past affects both the templars and earth worshippers.
 
@@ -5728,7 +5731,7 @@ The templar heroquester approaches you.
 He takes off his helm: it is [[Haloric Longfarm.-&gt;Haloric who]]
 
 [continue]
-You wonder bitterly [[why he chose this quest.-&gt;Haloric fire news]]</tw-passagedata><tw-passagedata pid="548" name="Haloric fire news" tags="" position="2808,6759" size="100,100">Do you:
+You wonder bitterly [[why he chose this quest.-&gt;Haloric fire news]]</tw-passagedata><tw-passagedata pid="549" name="Haloric fire news" tags="" position="2808,6759" size="100,100">Do you:
 
 [if lightTemple===false &amp;&amp; trail.includes(&#39;Haloric fire own news&#39;) ===false]
 [[Ask what brought him here-&gt;Haloric fire own news]]
@@ -5743,25 +5746,25 @@ You wonder bitterly [[why he chose this quest.-&gt;Haloric fire news]]</tw-passa
 [[Ask for news of Stormhaven-&gt;Haloric fire stormhaven]]
 
 [continue]
-[[Decide this is no time for questions.-&gt;Templars depart]]</tw-passagedata><tw-passagedata pid="549" name="Haloric fire kyros" tags="" position="2565,6592" size="100,100">&quot;Lord Kyros asked Count Solanthos&#39; support in retrieving his wife who he considered stolen. I could not deny the truth of his accusation. Nor could I deny my Count&#39;s command. 
+[[Decide this is no time for questions.-&gt;Templars depart]]</tw-passagedata><tw-passagedata pid="550" name="Haloric fire kyros" tags="" position="2565,6592" size="100,100">&quot;Lord Kyros asked Count Solanthos&#39; support in retrieving his wife who he considered stolen. I could not deny the truth of his accusation. Nor could I deny my Count&#39;s command. 
 
 I suspect Solanthos has little love for Lord Kyros, but he has influence in Pavis and at the Lunar court. 
 
 And in this dark winter our Count is determined to closely follow the path of our gods.&quot;
 
-{back link}</tw-passagedata><tw-passagedata pid="550" name="Haloric fire own news" tags="" position="2770,6520" size="100,100">&quot;I was appointed Light Captain to Pavis by [[Lord Belvani-&gt;Belvani]] when he was appointed high priest here. Between me and you though, he&#39;s a breath of fresh air. Sorry no pun intended...&quot;
+{back link}</tw-passagedata><tw-passagedata pid="551" name="Haloric fire own news" tags="" position="2770,6520" size="100,100">&quot;I was appointed Light Captain to Pavis by [[Lord Belvani-&gt;Belvani]] when he was appointed high priest here. Between me and you though, he&#39;s a breath of fresh air. Sorry no pun intended...&quot;
 
 &quot;I&#39;ve all respect for Lord Invictus and [[Lady Vega-&gt;Vega]], but Belvani just has different thoughts on many things and walked many heroquest paths.&quot; 
 
 &quot;It was Belvani who  asked me to accompany Lord Kyros when he petitioned Count Solanthos about his wife Ethwaine.&quot;
 
-{back link}</tw-passagedata><tw-passagedata pid="551" name="Haloric prax" tags="" position="3045,6761" size="100,100">&quot;Drought haunts Prax - the Zola Fel is little more than icy and stagnant pools. Even the deepest wells run dry. Daga has been released.
+{back link}</tw-passagedata><tw-passagedata pid="552" name="Haloric prax" tags="" position="3045,6761" size="100,100">&quot;Drought haunts Prax - the Zola Fel is little more than icy and stagnant pools. Even the deepest wells run dry. Daga has been released.
 
 There will be no crops this year and starvation grows and with it we fear Mallia will also stalk the land. The nomads have retreated deep into the wastes where the winds still blow.
 
 Another season of this winter and there will be few left to welcome spring. Sun County is inundated by refugees from Garhound and further afield. We have hardly supplies to feed ourselves let alone extra mouths.
 
-{back link}</tw-passagedata><tw-passagedata pid="552" name="Haloric fire stormhaven" tags="" position="2952,6620" size="100,100">&quot;Fear not, a few weeks ago many escaped from Stormhaven, led by an Issaries trader I did not now and the Humakti Calops. They asked passage through Sun County on their travel to Sartar.&quot;
+{back link}</tw-passagedata><tw-passagedata pid="553" name="Haloric fire stormhaven" tags="" position="2952,6620" size="100,100">&quot;Fear not, a few weeks ago many escaped from Stormhaven, led by an Issaries trader I did not now and the Humakti Calops. They asked passage through Sun County on their travel to Sartar.&quot;
 
 &quot;I must admit, the Count was hesitant for has little love of the Orlanthi of Stormhaven..
 
@@ -5772,9 +5775,11 @@ But voices spoke in your favour and and reminded him of his duty of hospitality 
 [continue]
 Let us hope they found a way across Prax, although in truth I do not envy their journey.&quot;
 
-{back link}</tw-passagedata><tw-passagedata pid="553" name="Templars depart" tags="" position="3205,6620" size="100,100">The Sun Domers stay a day - sharing meagre but much needed supplies and water. 
+{back link}</tw-passagedata><tw-passagedata pid="554" name="Templars depart" tags="" position="3205,6620" size="100,100">doy:doy+1
+--
+The Sun Domers stay a day - sharing meagre but much needed supplies and water. 
 
-The following dawn they prepare to depart from the caves to return to [[Sun County-&gt;Allalia leaves]]</tw-passagedata><tw-passagedata pid="554" name="Allalia leaves" tags="" position="3193,6759" size="100,100">events: [...events,&quot; The templars leave but Haloric, the heroquester, remains to guard the earth &quot;]
+The following dawn they prepare to depart from the caves to return to [[Sun County-&gt;Allalia leaves]]</tw-passagedata><tw-passagedata pid="555" name="Allalia leaves" tags="" position="3193,6759" size="100,100">events: [...events,&quot; The templars leave but Haloric, the heroquester, remains to guard the earth &quot;]
 --
 Allalia bids you farewell.
 
@@ -5782,52 +5787,55 @@ Allalia bids you farewell.
 
 Perhaps when these dark times are over we will meet again. 
 
-Look after our brother Haloric. He has chosen [[a different and more dangerous path from us.&quot;-&gt;Haloric joins]]</tw-passagedata><tw-passagedata pid="555" name="Haloric joins" tags="" position="3349,6759" size="100,100">When they have departed, Haloric explains why he is remaining. 
+Look after our brother Haloric. He has chosen [[a different and more dangerous path from us.&quot;-&gt;Haloric joins]]</tw-passagedata><tw-passagedata pid="556" name="Haloric joins" tags="" position="3349,6759" size="100,100">When they have departed, Haloric explains why he is remaining. 
 
 &quot;I must walk the same path Yelmalio walked in the Great Darkness. I must suffer the same victories and same defeats as did he. Fight alongside those he fought with, and be betrayed by those who betrayed him.
 
 That is why I joined with Lord Kyros and was his champion. To walk the path of the last light.
 
-And to join with you my friend, to [[guard over the sleeping Earth&quot;.-&gt;End fire season 1622]]</tw-passagedata><tw-passagedata pid="556" name="End fire season 1622" tags="" position="3505,6757" size="100,100">Rations of food and water are futher cut on Occala&#39;s command. Now there is hardly enough for a man to keep active.
+And to join with you my friend, to [[guard over the sleeping Earth&quot;.-&gt;Late fire season 1622]]</tw-passagedata><tw-passagedata pid="557" name="Late fire season 1622" tags="" position="3505,6757" size="100,100">doy: 102
+--
+Rations of food and water are futher cut. Yet everyone knows there are but a few days remaining.
 
 Haloric, however, seems to have never-ending energy, always the first to lead patrols or watch over the canyon. He helps drive off scavenging baboons and a small group of broos, both looking for food and water. 
 
 You wonder how long it will be before they return.
 
-The season ends and the [[water runs dry-&gt;Earth season 1622]]</tw-passagedata><tw-passagedata pid="557" name="Earth season 1622" tags="" position="3801,6751" size="100,100">doy: 500
+And you wonder if you sill stil be alive when they do as the [[water runs dry-&gt;End fire season 1622]]</tw-passagedata><tw-passagedata pid="558" name="End fire season 1622" tags="" position="975,6975" size="100,100">doy: 87
 events: [...events,&quot; You endure survive without water and food with the help of Barbeester Gor. &quot;]
-
 --
-## Earth Season 1622
-
 With no water you will soon die...
 
 *But Barbeester Gor teaches you how to drink blood.*
 
-As the last rations are consumed, you will soon starve...
+WIth no food remaining, you will soon starve...
 
 *But Barbeester Gor teaches you how to eat sentient flesh.*
 
-When the wood and oil is exhausted, you know you will despair.
+With the wood and oil exhausted, hoep will fade.
 
-But Yelmalio&#39;s light shows you how to endure the [[great darkness.-&gt;Great darkness]]</tw-passagedata><tw-passagedata pid="558" name="Great darkness" tags="" position="3793,6957" size="100,100">## Disorder week, Earth Season 1622
+But Yelmalio shows you how to endure the [[great darkness.-&gt;Great darkness]]</tw-passagedata><tw-passagedata pid="559" name="Great darkness" tags="" position="3793,6957" size="100,100">doy: 109
+--
+## Disorder week, Earth Season 1622
 All now is as a dream.
 
 Uroxi arrive, led by the Jarl Ka-Hendra, they have been called by the Earth to defend her against chaos. 
 
 Orlanthi arrive led by a Bison rider, called by the Earth to face down her foes.
 
-Huamkti arrive led by Krogar and Cathiades. The Earth did not call them - but battle and blood drew them here.
+Huamkti arrive led by Cathiades &amp; Conandren. The Earth did not call them - but battle and blood drew them here.
 
 You awake the next day and darkness has fallen.
 
-Haloric tells you it is the [[end of all things.-&gt;Attract foes]]</tw-passagedata><tw-passagedata pid="559" name="Still day" tags="" position="3669,8491" size="100,100"># Still day: Clayday of Disorder Week in Earth Season 1622
+Haloric tells you it is the [[end of all things.-&gt;Attract foes]]</tw-passagedata><tw-passagedata pid="560" name="Still day" tags="" position="3669,8491" size="100,100">doy:111
+--
+# Still day: Clayday of Disorder Week in Earth Season 1622
 
 And you awake as if from a dream.
 
 And the sleepers too are now awake as a new spring has broken.
 
-**THE END of this chapter**</tw-passagedata><tw-passagedata pid="560" name="Path of Urox" tags="" position="3360,8265" size="100,100">sbull: sbull+10
+**THE END of this chapter**</tw-passagedata><tw-passagedata pid="561" name="Path of Urox" tags="" position="3360,8265" size="100,100">sbull: sbull+10
 events: [...events,&quot; and you embrace the path of Urox as you fight and the darkness ends. &quot;]
 ethwyn: ethwyn+5
 
@@ -5838,7 +5846,7 @@ And alone you resist the Chaos until your blood is entirely spent and then the E
 
 Warriors of Barbeester Gor emerge from the Cave of sleepers rout the chaos hordes, pursuing them back to the canyon and beyond.
 
-[[Light has returned-&gt;Still day]]</tw-passagedata><tw-passagedata pid="561" name="Path of Orlanth" tags="" position="3614,8269" size="100,100">orlanth: orlanth+10
+[[Light has returned-&gt;Still day]]</tw-passagedata><tw-passagedata pid="562" name="Path of Orlanth" tags="" position="3614,8269" size="100,100">orlanth: orlanth+10
 ethwyn: ethwyn+5
 events: [...events,&quot; and you embrace the path of Orlanth as you fight and the darkness ends. &quot;]
 --
@@ -5848,7 +5856,7 @@ Alone you resist the Chaos until your blood and power is entirely spent; and the
 
 Warriors of Barbeester Gor emerge from the Cave of sleepers to rout the chaos hordes, pursuing them back to the canyon and beyond.
 
-[[Light has returned-&gt;Still day]]</tw-passagedata><tw-passagedata pid="562" name="Path of Yelmalio" tags="" position="3768,8269" size="100,100">orlanth: orlanth-10
+[[Light has returned-&gt;Still day]]</tw-passagedata><tw-passagedata pid="563" name="Path of Yelmalio" tags="" position="3768,8269" size="100,100">orlanth: orlanth-10
 =events: [...events,&quot; and you embrace the path of Yelmalio as you fight and the darkness ends and prove yourself a friend of of the light. &quot;]
 --
 You fight alone but not for yourself but for honour, truth and the light that endured in the darkness.
@@ -5857,7 +5865,7 @@ Alone you resist the Chaos until your blood and power is spent; and then the Ear
 
 Warriors of Barbeester Gor emerge from the Cave of sleepers to rout the chaos hordes, pursuing them back to the canyon and beyond.
 
-[[Light has returned-&gt;Still day]]</tw-passagedata><tw-passagedata pid="563" name="Path of Humakt" tags="" position="3914,8269" size="100,100">ethwyn: ethwyn-10
+[[Light has returned-&gt;Still day]]</tw-passagedata><tw-passagedata pid="564" name="Path of Humakt" tags="" position="3914,8269" size="100,100">ethwyn: ethwyn-10
 karyth: karyth-5
 chysman: chysman-5
 events: [...events,&quot; and you embrace the path of Humakt as you fight and the darkness ends. &quot;]
@@ -5868,11 +5876,11 @@ Alone you resist the Chaos until your blood and power is entirely spent and you 
 
 Warriors of Barbeester Gor emerge from the Cave of sleepers to rout the chaos hordes, pursuing them back to the canyon and beyond.
 
-[[Light has returned-&gt;Still day]]</tw-passagedata><tw-passagedata pid="564" name="Haloric who" tags="" position="2484,6871" size="100,100">It was Haloric who employed your family and Xalentor to bust the hazia farm near Chomoro - eight years ago in 1614 - and who helped you purge Rabbit Hat Farm of chaos. The last time you recall seeing him was at the inauguration of Carrick&#39;s shrine at Stormhaven. 
+[[Light has returned-&gt;Still day]]</tw-passagedata><tw-passagedata pid="565" name="Haloric who" tags="" position="2484,6871" size="100,100">It was Haloric who employed your family and Xalentor to bust the hazia farm near Chomoro - eight years ago in 1614 - and who helped you purge Rabbit Hat Farm of chaos. The last time you recall seeing him was at the inauguration of Carrick&#39;s shrine at Stormhaven. 
 
 You always wondered if he was among the templars you slew during the raid on Harpoon to save the Cradle. Obviously not.
 
-{back link}</tw-passagedata><tw-passagedata pid="565" name="if trail.includes(&#39;Haloric fire kyros&#39;) ===true &amp;&amp; trail.includes(&#39;Haloric prax&#39;) ===true &amp;&amp; trail.includes(&#39;Haloric fire stormhaven&#39;===true)" tags="" position="2808,6909" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="566" name="Daga found" tags="" position="169,6662" size="100,100">events: [...events,&quot;The Grazelander returns to the Bronze jar &quot;]
+{back link}</tw-passagedata><tw-passagedata pid="566" name="if trail.includes(&#39;Haloric fire kyros&#39;) ===true &amp;&amp; trail.includes(&#39;Haloric prax&#39;) ===true &amp;&amp; trail.includes(&#39;Haloric fire stormhaven&#39;===true)" tags="" position="2808,6909" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="567" name="Daga found" tags="" position="169,6662" size="100,100">events: [...events,&quot;The Grazelander returns to the Bronze jar &quot;]
 --
 Occala shakes her head. &quot;Some evil has been performed this night.&quot;
 
@@ -5880,11 +5888,13 @@ She demands a head count and you discover the young Yelmite is missing.
 
 &quot;I expect he has returned to the Bronze jar&quot; suggests the troll gleefully, &quot;and discovered it is not what he expected!&quot;
 
-Later the Yelmite is found but he refuses to speak to anyone but Occala of [[what has happened.-&gt;Fire season raiders]]</tw-passagedata><tw-passagedata pid="567" name="Attract foes" tags="" position="3780,7147" size="100,100">The Orlanthi and Uroxi build a funeral pyre they say will end the darkness. The Babeester Gor say it will bring only atttract foes. 
+Later the Yelmite is found but he refuses to speak to anyone but Occala of [[what has happened.-&gt;Fire season raiders]]</tw-passagedata><tw-passagedata pid="568" name="Attract foes" tags="" position="3780,7147" size="100,100">doy: doy+1
+--
+The Orlanthi and Uroxi build a funeral pyre they say will end the darkness. The Babeester Gor say it will bring only atttract foes. 
 
 The Orlanthi agree, but say time is short and this darkness must end.
 
-Haloric  watches from the cliff top - his shields shines a lantern across the plains: he will be first to spy any [[danger.-&gt;Ambush]]</tw-passagedata><tw-passagedata pid="568" name="Refuse ambush" tags="" position="3278,7471" size="100,100">orlanth: orlanth-10
+Haloric  watches from the cliff top - his shields shines a lantern across the plains: he will be first to spy any [[danger.-&gt;Ambush]]</tw-passagedata><tw-passagedata pid="569" name="Refuse ambush" tags="" position="3278,7471" size="100,100">orlanth: orlanth-10
 chysman: chysman-5
 karyth: karyth-10
 --
@@ -5910,7 +5920,7 @@ Do you:
 
 [[Join the Uroxi-&gt;Help uroxi]]
 
-[[Join the Humakti-&gt;Help humakti]]</tw-passagedata><tw-passagedata pid="569" name="Agree ambush" tags="" position="2892,7499" size="100,100">path: &quot;orlanth&quot;
+[[Join the Humakti-&gt;Help humakti]]</tw-passagedata><tw-passagedata pid="570" name="Agree ambush" tags="" position="2892,7499" size="100,100">path: &quot;orlanth&quot;
 orlanth: orlanth+20
 events: [...events,&quot; You betray Haloric, stealing his shield and light. &quot;]
 --
@@ -5918,7 +5928,7 @@ You agree and sneak to your positions just below where Haloric stands. The pyre 
 
 You and your followers rush Haloric, who welcomes you as a friend. The blows from your axe soon show him the truth. You break his spear and Karyth steals his shield.
 
-You leave him a lying wounded as you race [[back to the pyre with your trophies.-&gt;Light pyre]]</tw-passagedata><tw-passagedata pid="570" name="Help haloric" tags="" position="3306,7627" size="100,100">path: &quot;yelmalio&quot;
+You leave him a lying wounded as you race [[back to the pyre with your trophies.-&gt;Light pyre]]</tw-passagedata><tw-passagedata pid="571" name="Help haloric" tags="" position="3306,7627" size="100,100">path: &quot;yelmalio&quot;
 orlanth: orlanth-10
 events: [...events,&quot; You refuse to betray Haloric and join him in the darkness. &quot;]
 
@@ -5931,7 +5941,7 @@ He listens in silence.
 
 He would say more, but at that moment you are ambushed by nomad Orlanthi who must have trailed you when you left the Bison Khan. Only then do you realise your followers remained at the camp. You fight but there are too many of them.
 
-They take your axe, spear and shields and leave you lying wounded in the [[darkness.-&gt;Haloric trolls]]</tw-passagedata><tw-passagedata pid="571" name="Help uroxi" tags="" position="3524,7619" size="100,100">path: &quot;urox&quot;
+They take your axe, spear and shields and leave you lying wounded in the [[darkness.-&gt;Haloric trolls]]</tw-passagedata><tw-passagedata pid="572" name="Help uroxi" tags="" position="3524,7619" size="100,100">path: &quot;urox&quot;
 sbull: sbull+10
 events: [...events,&quot; You refuse to betray Haloric and join the Uroxi. &quot;]
 
@@ -5964,7 +5974,7 @@ You hear drums beating and the sound of fighting nearby but the Uroxi show no in
 
 Then the drum beat changes and the Uroxi gather.
 
-[[Chaos comes-&gt;Chaos attacks]]</tw-passagedata><tw-passagedata pid="572" name="Help humakti" tags="" position="3841,7507" size="100,100">path: &quot;humakt&quot;
+[[Chaos comes-&gt;Chaos attacks]]</tw-passagedata><tw-passagedata pid="573" name="Help humakti" tags="" position="3841,7507" size="100,100">path: &quot;humakt&quot;
 orlanth: orlanth-5
 events: [...events,&quot; You refuse to betray Haloric and join the Humakti. &quot;]
 
@@ -5975,13 +5985,13 @@ You join Cathiades and Conandren and they are please to welcome you in the upper
 
 In the canyon, the flaming pyre lit by the Orlanthi dies down and you notice there is no light where once Haloric stood watch.
 
-Then drums are heard and trolls attack and you take you place among the Humakti to [[resist the darkness-&gt;Humakt trolls]]</tw-passagedata><tw-passagedata pid="573" name="Haloric trolls" tags="" position="3328,7771" size="100,100">As you heal your wounds, beserker trolls attack out of the darkness. They wield the magics of Zorak Zoran.
+Then drums are heard and trolls attack and you take you place among the Humakti to [[resist the darkness-&gt;Humakt trolls]]</tw-passagedata><tw-passagedata pid="574" name="Haloric trolls" tags="" position="3328,7771" size="100,100">As you heal your wounds, beserker trolls attack out of the darkness. They wield the magics of Zorak Zoran.
 
 You flee to the caves of the Abandoned Earth, but a power is stripped fro you and you epect only death.
 
 Then the trolls drums change their tune and they leave you where you lie. 
 
-[[Chaos has arrived-&gt;Chaos attacks]]</tw-passagedata><tw-passagedata pid="574" name="Chaos attacks" tags="" position="3676,8083" size="100,100">[if path ===&quot;orlanth&quot;]
+[[Chaos has arrived-&gt;Chaos attacks]]</tw-passagedata><tw-passagedata pid="575" name="Chaos attacks" tags="" position="3676,8083" size="100,100">[if path ===&quot;orlanth&quot;]
 As once it emerged from the Underworld, so the chaos attacks the trolls first. Their lines waver and break, seeking refuge in the deepest of shadows.
 
 The the Chaos attacks your battered shield wall. Broos hack down Orlanthi brothers to either side of you and you retreat back ever deeper into the caverns of the Earth.
@@ -6067,23 +6077,23 @@ You must resist, but how?
 
 [[By the light of truth and honour-&gt;Path of Yelmalio]]
 
-[[By accepting all things must die-&gt;Path of Humakt]]</tw-passagedata><tw-passagedata pid="575" name="Humakt trolls" tags="" position="3830,7767" size="100,100">You are glad to be among such proficient fighters. Their silence and grim determination remind you of Havius and you wonder where now he might be.
+[[By accepting all things must die-&gt;Path of Humakt]]</tw-passagedata><tw-passagedata pid="576" name="Humakt trolls" tags="" position="3830,7767" size="100,100">You are glad to be among such proficient fighters. Their silence and grim determination remind you of Havius and you wonder where now he might be.
 
 The fighting is long and you fear the trolls will break your ranks.
 
 Then the drum beat changes and thr trolls waver.
 
-[[Chaos has arrived-&gt;Chaos attacks]]</tw-passagedata><tw-passagedata pid="576" name="Light pyre" tags="" position="2908,7639" size="100,100">The Khan is pleased with what you have stolen from Haloric. He gives you the shield so you can fight in the darkness.
+[[Chaos has arrived-&gt;Chaos attacks]]</tw-passagedata><tw-passagedata pid="577" name="Light pyre" tags="" position="2908,7639" size="100,100">The Khan is pleased with what you have stolen from Haloric. He gives you the shield so you can fight in the darkness.
 
 The flames of the pyre roar up and then die very quickly. All is dark once again, except for Haloric&#39;s shield.
 
-A warning cry from the cliffs where you left Heloric is heard. You shine your light and see the first foes have arrived already: [[trolls.-&gt;Darkness attacks]]</tw-passagedata><tw-passagedata pid="577" name="Darkness attacks" tags="" position="2914,7799" size="100,100">You lead the fight against the trolls wielding the light from Haloric&#39;s shield. You and the other Orlanthi form a shield wall defending the lower caverns - beating back the endless waves of trollkin and resisting the dark magic cast at you.
+A warning cry from the cliffs where you left Heloric is heard. You shine your light and see the first foes have arrived already: [[trolls.-&gt;Darkness attacks]]</tw-passagedata><tw-passagedata pid="578" name="Darkness attacks" tags="" position="2914,7799" size="100,100">You lead the fight against the trolls wielding the light from Haloric&#39;s shield. You and the other Orlanthi form a shield wall defending the lower caverns - beating back the endless waves of trollkin and resisting the dark magic cast at you.
 
 Then you hear the drums of the trolls beat a different tune - a warning call.
 
 The fighting ceases.
 
-[[And chaos comes-&gt;Chaos attacks]]</tw-passagedata><tw-passagedata pid="578" name="Ambush" tags="" position="3104,7249" size="100,100">The Bison khan comes to you and asks you to steal the Haloric&#39;s shield and light.
+[[And chaos comes-&gt;Chaos attacks]]</tw-passagedata><tw-passagedata pid="579" name="Ambush" tags="" position="3104,7249" size="100,100">The Bison khan comes to you and asks you to steal the Haloric&#39;s shield and light.
 
 &quot;Why should he see when we cannot? We are the better fighters - he is but a son of Yelm who was killed by our god.
 
